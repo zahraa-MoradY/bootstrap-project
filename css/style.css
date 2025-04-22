@@ -198,6 +198,7 @@ main {
     position: absolute !important;
     top: 54px !important;
     height: fit-content;
+    z-index: 1000;
   }
   main {
     width: 100%;
