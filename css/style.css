@@ -51,10 +51,7 @@ header .navbar form input:focus {
 .left-side-header .menu-icon img {
   height: 80%;
 }
-/* .stop {
-  position: absolute !important;
-  bottom: 0;
-} */
+
 .sidebar {
   width: 190px;
   position: fixed;
@@ -66,7 +63,6 @@ header .navbar form input:focus {
   height: 100%;
 }
 .sidebar > li:hover > img {
-  /* background-color: ; */
   filter: invert(1);
   transition: all ease-in 0.5s;
   cursor: pointer;
@@ -86,9 +82,7 @@ main {
   width: calc(100% - 190px);
   position: relative;
   right: 190px;
-  /* z-index: 1000 !important; */
-}
-main {
+  top: 58px;
   z-index: 1000 !important;
 }
 .section1 .image {
@@ -192,6 +186,12 @@ main {
   background-color: rgb(233, 236, 239);
   /* opacity: 0.5; */
 }
+.shop-icon:hover {
+  background-color: #d1e7dd !important;
+}
+.user-icon:hover {
+  background-color: #f8d7da !important;
+}
 @media screen and (max-width: 768px) {
   .sidebar {
     width: 100%;
@@ -202,6 +202,7 @@ main {
   main {
     width: 100%;
     right: 0;
+    top: 120px;
   }
   .section1-content {
     flex-wrap: wrap;
